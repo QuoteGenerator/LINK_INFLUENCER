@@ -1,0 +1,33 @@
+body{
+    background: beige;
+}
+
+#circle{
+width:200px;
+height:200px;
+
+background-image: url(pictures/monkey092018.jpg);
+background-position: center;
+background-size: cover;
+
+border: 3px solid purple;
+border-radius: 100%;
+margin:auto;
+inset: 0px;
+}
+
+.buttons{
+display:flex;
+flex-direction: column;
+
+align-items: center;
+justify-content: center;
+margin: 20px;
+}
+button{
+    margin: 4px;
+    background-color: yellow;
+    color:black;
+    cursor:pointer;
+    width: 600px;
+}
